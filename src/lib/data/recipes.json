@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Steamed Crab",
+        "category": "meat",
+        "cuisine": ["light"],
+        "ingridients": ["12345", "21345", "31245"],
+        "seasoning":["abcdef", "bacdef", "cabdef"],
+        "cookery": "This is how it is cooked.",
+        "image": "/images/steamed_crab.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Cuisine"
+    },
+    {
+        "name": "Winter Melon",
+        "category": "veg",
+        "cuisine": ["spicy"],
+        "ingridients": ["45612", "54612", "64512"],
+        "seasoning":["aaaaaa", "bbbbbb", "cccccc"],
+        "cookery": "This is how it is cooked.",
+        "image": "/images/winter_melon.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Cuisine"
+    }
+]
