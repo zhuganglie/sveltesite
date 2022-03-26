@@ -59,7 +59,7 @@ export let currentRoute: any
 </main>
 {/key}
 
-<aside class="flex flex-col items-center justify-center text-center mx-auto px-6 hidden md:w-1/5">
+<aside class="md:flex md:flex-col md:items-center md:justify-center text-center mx-auto px-6 hidden md:w-1/5">
     <div class="mb-4 font-bold text-xl">Contact Me</div>
     <Contact />
 </aside>
