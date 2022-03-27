@@ -78,7 +78,7 @@
       <li class="">{i}</li>
       {/each}
     </ul>
-      <div class="flex flex-center justify-center gap-2 rounded bg-zinc-800 py-0.5 px-2 max-w-max"><div class="i-mdi-tag-outline" /><span>{item.category}</span></div>
+      <div class="capitalize flex flex-center justify-center gap-2 rounded bg-zinc-800 py-0.5 px-2 max-w-max"><div class="i-mdi-tag-outline" /><span>{item.category}</span></div>
       </div>
     {/each}
     </div>
@@ -90,12 +90,12 @@
   {#each x as i}
   <SplideSlide>
     <div class="mx-auto flex items-center justify-around bg-zinc-700 px-4 py-4 w-full md:w-3/5">
-      <div class="">
+      <div class="w-1/4">
         <img src={i.image} alt="img" class="w-24 h-24" />
         </div>
         <div class="flex flex-col gap-4 items-center justify-between">
       <a href="#id" class="m-0"><h3 class="text-xl m-0">{i.name}</h3></a>
-        <div class="rounded flex gap-2 bg-zinc-800 py-0.5 px-2 max-w-max"><div class="i-mdi-tag-outline"/><span>{i.category}</span></div>
+        <div class="capitalize rounded flex gap-2 bg-zinc-800 py-0.5 px-2 max-w-max"><div class="i-mdi-tag-outline"/><span>{i.category}</span></div>
         </div>
         </div>
   </SplideSlide>

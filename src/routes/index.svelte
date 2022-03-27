@@ -19,7 +19,7 @@
     <center><img src="/images/notion-avatar.svg" alt="pic" class="w-1/2 h-auto md:w-64 md:h-64"/></center>
 
 {#if start}
-	<p in:fly={{ delay: 3000, duration: 1000, easing: quintOut, x: -200 }} class="wip-text w-full md:w-1/2 leading-10">
+	<p in:fly={{ delay: 1000, duration: 1000, easing: quintOut, x: -200 }} class="wip-text w-full md:w-1/2 leading-10">
 		Hi. My name is YQGD. I am a freelance trainer and a self-taught web developer, currently based in Singapore.
 	</p>
 {/if}
