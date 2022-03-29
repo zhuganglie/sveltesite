@@ -41,6 +41,7 @@
 		"@notionhq/client": "^1.0.4",
 		"@prisma/client": "^3.11.0",
 		"@splidejs/svelte-splide": "^0.1.18",
+		"firebase": "^9.6.10",
 		"svelte-click-outside": "^1.0.0"
 	}
 }

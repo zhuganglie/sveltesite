@@ -1,6 +1,7 @@
 <script context="module">
     import { page } from '$app/stores';
-
+    export const prerender = true;
+    
     export const load = ({ url }) => {
         const currentRoute = url.pathname
         return {
@@ -29,6 +30,7 @@ export let currentRoute: any
     {name: "Blog", href: "/blog", icon: "i-mdi-post-outline"},
     {name: "Notes", href:"/notes", icon: "i-mdi-book-outline"},
     {name: "Recipes", href:"/recipes", icon: "i-mdi-food-outline"},
+    {name: "About", href:"/about", icon:"i-mdi-information-outline"},
 ]
 </script>
 
