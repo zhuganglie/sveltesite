@@ -45,37 +45,42 @@
   
         <h1 class="">{title}</h1>
         <hr >
-<div class="text-center block mt-24">
-        <form on:submit|preventDefault={login}>
-          <div class="mb-6">
-            <label for="emailInput" >Email</label>
-            <br>
+        <p>Here are some pieces of information about me. Please login to browse.</p>
+<center>
+<div class="w-full md:w-1/2 py-6 mx-auto mt-24 border-2 border-zinc-700">
+
+        <form on:submit|preventDefault={login} class="grid grid-cols-1 grid-rows-3 place-items-center gap-y-4">
+           <div class="w-4/5">
+           <label for="emailInput">Email</label>
             <input
               type="email"
-              class="bg-zinc-700 text-zinc-100 mt-1 w-full md:w-1/2"
+              class="bg-zinc-700 text-zinc-100 mt-1 w-full cursor-text"
               id="emailInput"
               aria-describedby="emailHelp"
-              placeholder="Email Address"
+              placeholder="Email"
             />
+          
             {#if title != "Login"}
               <div id="emailHelp" class="text-sm mt-2">
                 I'll never share your email with anyone else.
               </div>
             {/if}
-          </div>
-          <div class="mb-8">
-            <label for="passInput">Password</label>
-            <br>
+            </div>
+          
+            <div class="w-4/5">
+           <label for="passInput">Password</label>
             <input
               type="password"
-              class="bg-zinc-700 text-zinc-100 mt-1 w-full md:w-1/2"
+              class="bg-zinc-700 text-zinc-100 mt-1 w-full cursor-text"
               id="passInput"
               placeholder="Password"
             />
-          </div>
-          <button type="submit" class="bg-zinc-700 text-zinc-100 w-full md:w-1/2">Submit</button>
-        </form>
-        {#if title == "Login"}
+            </div>
+        
+          <button type="submit" class="bg-zinc-700 text-zinc-100 cursor-pointer">Submit</button>
+        </form>    
+  </div>
+  {#if title == "Login"}
           <p class="float-end mt-3">
             Not a user? <a href="/signup" class="">Sign Up</a>
           </p>
@@ -84,6 +89,5 @@
             Have an account? <a href="/login" class="">Login</a>
           </p>
         {/if}
-  </div>
-  
+</center>
   

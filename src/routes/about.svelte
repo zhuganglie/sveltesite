@@ -2,7 +2,7 @@
   import { isLoggedIn } from "../stores/authStore";
   import app from "$lib/firebase";
   import { onMount } from "svelte";
-  import { getAuth, onAuthStateChanged } from "firebase/auth";
+  import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
   import { goto } from "$app/navigation";
 
 
@@ -19,9 +19,14 @@
     });
   });
 
+
   
 </script>
 
 <h1>About Me</h1>
 
 <hr >
+
+<p>Actually, I do not know how to write About Me.</p>
+
+<a href="/logout" class="bg-zinc-700 p-2 text-zinc-100 focus:text-zinc-50 cursor-pointer">Logout</a>
