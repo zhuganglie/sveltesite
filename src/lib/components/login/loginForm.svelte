@@ -73,7 +73,7 @@
             />
             </div>
         
-          <button type="submit" class="bg-zinc-700 text-zinc-100 cursor-pointer min-w-max h-min mt-6">Submit</button>
+          <button type="submit" class="bg-zinc-700 text-zinc-100 cursor-pointer w-min h-min mt-6">Submit</button>
         </form>    
   </div>
   
@@ -82,7 +82,7 @@
             Not a user? <a href="/signup" class="">Sign Up</a>
           </p>
           {:else if title == "Sign Up"}
-          <p class="float-end mt-3">
+          <p class="text-center mt-3">
             Have an account? <a href="/login" class="text-center">Login</a>
           </p>
         {/if}
