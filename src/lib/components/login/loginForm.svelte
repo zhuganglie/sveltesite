@@ -46,10 +46,10 @@
         <h1 class="">{title}</h1>
         <hr >
         <p>Here are some pieces of information about me. Please login to browse.</p>
-<center>
-<div class="w-full md:w-1/2 py-6 px-4 mx-auto mt-24 border-2 border-zinc-700">
 
-        <form on:submit|preventDefault={login} class="grid grid-cols-1 grid-rows-3 place-items-center gap-y-4">
+<div class="w-full md:w-1/2 py-6 px-4 mx-auto mt-10 border-2 border-zinc-700">
+
+        <form on:submit|preventDefault={login} class="grid grid-cols-1 grid-rows-3 justify-items-center gap-y-4">
            <div class="w-4/5">
            <label for="emailInput">Email</label>
             <input
@@ -73,23 +73,23 @@
             />
             </div>
         
-          <button type="submit" class="bg-zinc-700 text-zinc-100 cursor-pointer">Submit</button>
+          <button type="submit" class="bg-zinc-700 text-zinc-100 cursor-pointer min-w-max h-min mt-6">Submit</button>
         </form>    
   </div>
   
   {#if title == "Login"}
-          <p class="float-end mt-3">
+          <p class="text-center mt-3 ">
             Not a user? <a href="/signup" class="">Sign Up</a>
           </p>
           {:else if title == "Sign Up"}
           <p class="float-end mt-3">
-            Have an account? <a href="/login" class="">Login</a>
+            Have an account? <a href="/login" class="text-center">Login</a>
           </p>
         {/if}
         {#if title != "Login"}
-        <div id="emailHelp" class="text-sm mt-2">
+        <div id="emailHelp" class="text-sm mt-2 text-center">
           I'll never share your email with anyone else.
         </div>
       {/if}
-</center>
+
   
