@@ -50,7 +50,7 @@
 <div class="w-full md:w-1/2 py-6 px-4 mx-auto mt-10 border-2 border-zinc-700">
 
         <form on:submit|preventDefault={login} class="grid grid-cols-1 grid-rows-3 justify-items-center gap-y-4">
-           <div class="w-4/5">
+           <div class="w-4/5 mt-3">
            <label for="emailInput">Email</label>
             <input
               type="email"
@@ -63,7 +63,7 @@
             
             </div>
           
-            <div class="w-4/5">
+            <div class="w-4/5 mt-3">
            <label for="passInput">Password</label>
             <input
               type="password"
@@ -73,7 +73,7 @@
             />
             </div>
         
-          <button type="submit" class="bg-zinc-700 text-zinc-100 cursor-pointer w-min h-min mt-6">Submit</button>
+          <button type="submit" class="bg-zinc-700 text-zinc-100 cursor-pointer w-fit h-min mt-6">Submit</button>
         </form>    
   </div>
   
