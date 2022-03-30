@@ -50,7 +50,7 @@
 <div class="w-full md:w-1/2 py-6 mx-auto mt-24 border-2 border-zinc-700">
 
         <form on:submit|preventDefault={login} class="grid grid-cols-1 grid-rows-3 place-items-center gap-y-4">
-           <div class="w-4/5">
+           <div class="w-full md:w-4/5">
            <label for="emailInput">Email</label>
             <input
               type="email"
@@ -67,7 +67,7 @@
             {/if}
             </div>
           
-            <div class="w-4/5">
+            <div class="w-full md:w-4/5">
            <label for="passInput">Password</label>
             <input
               type="password"
