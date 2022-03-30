@@ -60,11 +60,7 @@
               placeholder="Email"
             />
           
-            {#if title != "Login"}
-              <div id="emailHelp" class="text-sm mt-2">
-                I'll never share your email with anyone else.
-              </div>
-            {/if}
+            
             </div>
           
             <div class="w-4/5">
@@ -80,6 +76,7 @@
           <button type="submit" class="bg-zinc-700 text-zinc-100 cursor-pointer">Submit</button>
         </form>    
   </div>
+  
   {#if title == "Login"}
           <p class="float-end mt-3">
             Not a user? <a href="/signup" class="">Sign Up</a>
@@ -89,5 +86,10 @@
             Have an account? <a href="/login" class="">Login</a>
           </p>
         {/if}
+        {#if title != "Login"}
+        <div id="emailHelp" class="text-sm mt-2">
+          I'll never share your email with anyone else.
+        </div>
+      {/if}
 </center>
   
