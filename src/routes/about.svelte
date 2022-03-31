@@ -14,7 +14,7 @@
         isLoggedIn.update(() => true);
       } else {
         isLoggedIn.update(() => false);
-        goto("/login");
+        goto("/auth/login");
       }
     });
   });
@@ -29,4 +29,4 @@
 
 <p>Actually, I do not know how to write About Me.</p>
 
-<a href="/logout" class="bg-zinc-700 p-2 text-zinc-100 focus:text-zinc-50 cursor-pointer">Logout</a>
+<a href="/auth/logout" class="bg-zinc-700 p-2 text-zinc-100 focus:text-zinc-50 cursor-pointer">Logout</a>

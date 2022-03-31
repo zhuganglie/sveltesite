@@ -32,7 +32,7 @@
           .then((userCredential) => {
             const user = userCredential.user;
             console.log(user);
-            goto("/login");
+            goto("/auth/login");
           })
           .catch((error) => {
             const errorCode = error.code;
@@ -47,7 +47,7 @@
         <hr >
         <p>Here are some pieces of information about me. Please login to browse.</p>
 
-<div class="w-full md:w-1/2 py-6 px-4 mx-auto mt-10 border-2 border-zinc-700">
+<div class="w-full md:w-1/2 py-6 px-4 mx-auto mt-12 border-2 border-zinc-700">
 
         <form on:submit|preventDefault={login} class="flex flex-col items-center justify-center gap-y-4">
            <div class="w-4/5 mt-3">
@@ -79,11 +79,11 @@
   
   {#if title == "Login"}
           <p class="text-center mt-3 ">
-            Not a user? <a href="/signup" class="">Sign Up</a>
+            Not a user? <a href="/auth/signup" class="">Sign Up</a>
           </p>
           {:else if title == "Sign Up"}
           <p class="text-center mt-3">
-            Have an account? <a href="/login" class="text-center">Login</a>
+            Have an account? <a href="/auth/login" class="text-center">Login</a>
           </p>
         {/if}
         {#if title != "Login"}
