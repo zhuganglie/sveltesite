@@ -35,7 +35,7 @@ export let currentRoute: any
 </script>
 
 <div class="flex h-screen">
-    <div class="hidden h-screen md:w-1/5 px-4 py-10 md:flex flex-col justify-aound items-center min-w-max" class:flex={open}>
+    <div class="hidden h-screen md:w-1/5 px-4 py-10 md:flex flex-col justify-evenly items-center min-w-max" class:flex={open}>
         <header>
           <!--- <center> <img src="/images/notion-avatar.svg" alt="avatar" class="w-22 h-22 m-0"/></center>-->
         <h1 class="text-center text-2xl">YQGD</h1>
