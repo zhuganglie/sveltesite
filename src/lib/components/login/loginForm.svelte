@@ -49,7 +49,7 @@
 
 <div class="w-full md:w-1/2 py-6 px-4 mx-auto mt-10 border-2 border-zinc-700">
 
-        <form on:submit|preventDefault={login} class="grid grid-cols-1 grid-rows-3 justify-items-center gap-y-4">
+        <form on:submit|preventDefault={login} class="flex flex-col items-center justify-center gap-y-4">
            <div class="w-4/5 mt-3">
            <label for="emailInput">Email</label>
             <input
