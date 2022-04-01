@@ -32,7 +32,7 @@
       <hr />
       <ul>
           <li>Title：{book}</li>
-          <li><div class="md:flex md:flex-wrap space-x-2"><div class="my-1">Authors：</div>{#each authors as author}<div class="rounded max-w-max my-1 px-2.5 py-0.5 bg-zinc-700">{author}</div>{/each}</div></li>
+          <li><div class="md:flex md:flex-wrap space-x-2"><div class="my-1">Authors：</div>{#each authors as author}<div class="rounded w-max my-1 px-2.5 py-0.5 bg-zinc-700">{author}</div>{/each}</div></li>
           <li>Publisher：{publisher}</li>
           <li>Year：{year}</li>
           <li>Categories：{#each categories as category}<a href="/notes/categories/{category}" class="rounded max-w-max px-2.5 py-0.5 mr-1 bg-zinc-700">{category}</a>{/each}</li>
