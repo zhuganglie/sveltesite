@@ -6,7 +6,7 @@ signOut(auth).then(() => {
   // Sign-out successful.
   console.log("Bye!")
   isLoggedIn.update(() => false)
-  goto("/login")
+  goto("/auth/login")
 }).catch((error) => {
   console.log("An error happened.")
 });
