@@ -47,7 +47,7 @@
         <hr >
         <p>Here are some pieces of information about me. Please login to browse.</p>
 
-<div class="w-full md:w-1/2 py-6 px-4 mx-auto mt-24 border-2 border-zinc-700">
+<div class="w-full md:w-1/2 py-6 px-4 mx-auto mt-12 md:mt-24 border-2 border-zinc-700">
 
         <form on:submit|preventDefault={login} class="flex flex-col items-center justify-center gap-y-4">
            <div class="w-4/5 mt-3">
