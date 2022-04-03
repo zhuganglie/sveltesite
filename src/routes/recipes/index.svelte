@@ -68,12 +68,12 @@
 <h2 class="text-2xl">Random Menu</h2>
 <p>Just click the button and the app will randomly generate a menu with one meat and one veg.</p>
 
-<button on:click={change} class=" px-2 py-1 mb-2 bg-zinc-700 text-yellow-500 rounded mb-6 font-bold">Click</button>
+<button on:click={change} class=" px-2 py-1 mb-2 bg-zinc-700 text-yellow-500 rounded mb-6 font-bold cursor-pointer">Click</button>
 <div class="md:flex md:items-center md:justify-center gap-2">
     {#each menu as item}
     <div class="mx-auto bg-zinc-700 w-3/5 w-full md:w-1/4 px-3 py-3 mb-4 rounded">
-    <a href="#id" class="" ><h4>{item.name}</h4></a>
-    <ul class="mx-auto">
+    <a href="#id" class="" ><h4 class="m-0 p-0">{item.name}</h4></a>
+    <ul class="mx-auto mt-3">
     {#each item.ingridients as i}
       <li class="">{i}</li>
       {/each}

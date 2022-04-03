@@ -18,5 +18,15 @@
         "cookery": "This is how it is cooked.",
         "image": "/images/winter_melon.jpeg",
         "link": "https://en.wikipedia.org/wiki/Cuisine"
+    },
+    {
+        "name": "Fried Prawn",
+        "category": "meat",
+        "cuisine": ["spicy"],
+        "ingridients": ["98765", "67895", "64512"],
+        "seasoning":["xyzzzz", "xyzbbb", "cccxyz"],
+        "cookery": "This is how it is cooked.",
+        "image": "/images/winter_melon.jpeg",
+        "link": "https://en.wikipedia.org/wiki/Cuisine"
     }
 ]
