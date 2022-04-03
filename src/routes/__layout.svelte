@@ -18,6 +18,7 @@ import 'uno.css'
 import { fly } from 'svelte/transition'
 import ClickOutside from "svelte-click-outside"
 import Contact from '$lib/components/contact.svelte'
+import Taiji from '$lib/components/taiji.svelte'
 
 export let currentRoute: any
     
@@ -35,11 +36,14 @@ export let currentRoute: any
 </script>
 
 <div class="flex h-screen">
-    <div class="hidden h-screen md:w-1/5 px-4 py-10 md:flex flex-col justify-evenly items-center min-w-max" class:flex={open}>
+    <div class="hidden md:w-1/5 px-4 py-20 md:flex flex-col justify-evenly items-center min-w-max" class:flex={open}>
         <header>
           <!--- <center> <img src="/images/notion-avatar.svg" alt="avatar" class="w-22 h-22 m-0"/></center>-->
-        <h1 class="text-center text-2xl">YQGD</h1>
-        <p class="font-serif italic text-sm">A Life-Long Learner</p>
+          <center class="mb-6">
+           <Taiji />
+          </center>
+        <h1 class="text-center text-2xl m-0">YQGD</h1>
+        <p class="font-serif italic text-sm m-0">A Life-Long Learner</p>
         </header>
         
         <nav class="m-auto ">
