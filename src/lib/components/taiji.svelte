@@ -1,12 +1,12 @@
-<div class="universe-wrap">
-    <div class="universe">
+<div class="taiji-wrap shadow-lg">
+    <div class="taiji">
         <div></div>
         <div></div>
     </div>
 </div>
 
 <style>
-.universe-wrap{
+.taiji-wrap{
     width: 40%;
     height: 40%;
     display: -webkit-flex;
@@ -20,84 +20,84 @@
     justify-content: center;
     background: transparent;
 }
-@-webkit-keyframes UniverseR{
+@-webkit-keyframes taijiR{
     0%{-webkit-transform: rotate(0deg);}
     100%{-webkit-transform: rotate(360deg);}
 }
-@-moz-keyframes UniverseR{
+@-moz-keyframes taijiR{
     0%{-moz-transform: rotate(0deg);}
     100%{-moz-transform: rotate(360deg);}
 }
-@keyframes UniverseR{
+@keyframes taijiR{
     0%{transform: rotate(0deg);}
     100%{transform: rotate(360deg);}
 }
-@-ms-keyframes UniverseR{
+@-ms-keyframes taijiR{
     0%{-ms-transform: rotate(0deg);}
     100%{-ms-transform: rotate(360deg);}
 }   
-.universe{
+.taiji{
     position: relative;
     width: 36px;
     height: 36px;
-    border: 1px solid #e5e5e5;
+    border: 0px solid black;
     overflow: hidden;
-    -webkit-animation: UniverseR 5s linear infinite;
-    -moz-animation: UniverseR 5s linear infinite;
-    -ms-animation: UniverseR 5s linear infinite;
-    animation: UniverseR 5s linear infinite;
+    -webkit-animation: taijiR 5s linear infinite;
+    -moz-animation: taijiR 5s linear infinite;
+    -ms-animation: taijiR 5s linear infinite;
+    animation: taijiR 5s linear infinite;
 }
-.universe,
-.universe > div:before,
-.universe > div:after{
+.taiji,
+.taiji > div:before,
+.taiji > div:after{
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
 }   
-.universe > div{
+.taiji > div{
     position: absolute;
     top: 0;
     width: 50%;
     height: 100%;
     background: currentcolor;
 }
-.universe > div:first-of-type{
+.taiji > div:first-of-type{
     left: 0;
     color: #FFFFFF;
 }
-.universe > div:last-of-type{
+.taiji > div:last-of-type{
     right: 0;
     color: #000000;
 }
-.universe > div:before,
-.universe > div:after{
+.taiji > div:before,
+.taiji > div:after{
     position: absolute;
     content: '';
     background: currentcolor;
 }
-.universe > div:before{
+.taiji > div:before{
     width: 100%;
     height: 50%;
     z-index: 1;
 }
-.universe > div:first-of-type::before{
+.taiji > div:first-of-type::before{
     top: 0;
     left: 50%;
 }
-.universe > div:last-of-type::before{
+.taiji > div:last-of-type::before{
     bottom: 0;
     right: 50%;
 }
-.universe > div:after{
+.taiji > div:after{
     width: 25%;
     height: 12.5%;
     z-index: 2;
 }
-.universe > div:first-of-type::after{
+.taiji > div:first-of-type::after{
     bottom: 18.75%;
     right: -12.5%;
 }
-.universe > div:last-of-type::after{
+.taiji > div:last-of-type::after{
     top: 18.75%;
     left: -12.5%;
 }
