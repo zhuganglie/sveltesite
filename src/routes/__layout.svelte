@@ -15,6 +15,7 @@
 <script lang="ts">
 import '../global.css'
 import 'uno.css'
+//import '@unocss/reset/tailwind.css'
 import { fly } from 'svelte/transition'
 import ClickOutside from "svelte-click-outside"
 import Contact from '$lib/components/contact.svelte'
