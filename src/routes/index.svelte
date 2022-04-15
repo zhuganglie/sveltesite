@@ -16,7 +16,7 @@
 <h1 class="text-3xl uppercase">Welcome to my website</h1>
 <hr />
 <div class="md:flex items-end justify-center gap-8">
-    <center><img src="/images/notion-avatar.svg" alt="pic" class="w-1/2 h-auto md:w-64 md:h-64"/></center>
+    <center><img src="/images/notion-avatar.svg" alt="pic" class="w-1/2 h-auto md:w-48 md:h-48"/></center>
 
 {#if start}
 	<p in:fly={{ delay: 1000, duration: 1000, easing: quintOut, x: -200 }} class="wip-text w-full md:w-1/2 leading-10 text-md">
