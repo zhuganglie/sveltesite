@@ -18,8 +18,9 @@
 
   let items = posts
   let currentPage = 1
-  let pageSize = 4
+  let pageSize = 2
   $: paginatedItems = paginate({ items, pageSize, currentPage })
+    
   </script>
 
 <svelte:head>
