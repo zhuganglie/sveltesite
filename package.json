@@ -15,8 +15,8 @@
 		"@sveltejs/adapter-vercel": "^1.0.0-next.46",
 		"@sveltejs/kit": "next",
 		"@tsconfig/svelte": "^3.0.0",
-		"@unocss/preset-icons": "^0.32.8",
-		"autoprefixer": "^10.4.5",
+		"@unocss/preset-icons": "^0.32.9",
+		"autoprefixer": "^10.4.7",
 		"cookie": "^0.5.0",
 		"eslint": "^8.14.0",
 		"eslint-config-prettier": "^8.3.0",
@@ -30,15 +30,13 @@
 		"svelte-preprocess": "^4.10.6",
 		"tslib": "^2.4.0",
 		"typescript": "^4.6.4",
-		"unocss": "^0.32.8"
+		"unocss": "^0.32.9"
 	},
 	"type": "module",
 	"dependencies": {
-		"@graphql-yoga/render-graphiql": "^2.4.0",
 		"@splidejs/svelte-splide": "^0.2.1",
-		"@unocss/reset": "^0.32.8",
+		"@unocss/reset": "^0.32.9",
 		"firebase": "^9.7.0",
-		"graphql": "^16.4.0",
 		"svelte-click-outside": "^1.0.0"
 	}
 }
