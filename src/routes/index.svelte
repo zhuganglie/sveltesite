@@ -20,7 +20,7 @@
 
 {#if start}
 	<p in:fly={{ delay: 1000, duration: 1000, easing: quintOut, x: -200 }} class="wip-text w-full md:w-1/2 leading-10 text-md">
-		Hi. My name is YQGD. I am a freelance trainer and a self-taught web developer, currently based in Singapore.
+		Hi. My name is Pyrrho. I am a self-taught web developer based in Singapore.
 	</p>
 {/if}
 

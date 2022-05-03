@@ -43,8 +43,8 @@ export let currentRoute: any
           <center class="mb-6">
            <Taiji />
           </center>
-        <h1 class="text-center text-2xl m-0">YQGD</h1>
-        <p class="font-serif italic text-sm m-0">A Life-Long Learner</p>
+        <h1 class="text-center text-2xl mb-1.5">Πύρρων</h1>
+        <p class="font-serif italic text-sm m-0">I do not apprehend</p>
         </header>
         
         <nav class="m-auto ">
