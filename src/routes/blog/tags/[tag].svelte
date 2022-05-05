@@ -30,7 +30,7 @@
 {#if posts.length}
   <ul class="">
     {#each posts as post}
-      <li>
+      <li class="">
           <a href="/blog/{post.slug}">
             {post.title}
           </a>

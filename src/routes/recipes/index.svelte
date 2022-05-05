@@ -89,13 +89,13 @@
 <Splide options={options}>
   {#each x as i}
   <SplideSlide>
-    <div class="mx-auto flex items-center justify-around bg-zinc-700 px-4 py-4 w-full md:w-3/5">
-      <div class="w-1/4">
-        <img src={i.image} alt="img" class="w-24 h-24" />
-        </div>
+    <div class="mx-auto flex flex-col md:flex-row items-center justify-around bg-zinc-700 px-4 pt-3  pb-6 w-full md:w-3/5">
+      <center>
+        <img src={i.image} alt="img" class="w-24 h-24 " />
+      </center>
         <div class="flex flex-col gap-4 items-center justify-between">
-      <a href="#id" class="m-0"><h3 class="text-xl m-0">{i.name}</h3></a>
-        <div class="capitalize rounded flex gap-2 bg-zinc-800 py-0.5 px-2 max-w-max"><div class="i-mdi-tag-outline"/><span>{i.category}</span></div>
+      <a href="#id" class="m-0"><span class="text-xl font-bold">{i.name}</span></a>
+        <div class="capitalize rounded hidden md:flex gap-2 bg-zinc-800 py-0.5 px-2 max-w-max"><div class="i-mdi-tag-outline"/><span>{i.category}</span></div>
         </div>
         </div>
   </SplideSlide>
@@ -108,18 +108,18 @@
     
     <div>
       <p>Here are some Youtube channels that I subscribed for recipes.</p>
-      <ul class="list-none flex flex-wrap">
+      <ul class="list-none flex flex-wrap m-0">
       {#each yts as yt}
-      <li><a href={yt.href} target="_blank" class="">{yt.title}</a></li>
+      <li class=""><a href={yt.href} target="_blank" class="">{yt.title}</a></li>
       {/each}
       </ul>
     </div>
       
       <div>
         <p>Here are some local restaurants that I like to go to have dinner with friends.</p>
-        <ul class="flex flex-wrap list-none">
+        <ul class="flex flex-wrap list-none m-0">
         {#each rts as rt}
-        <li><a href={rt.href} target="_blank" class="">{rt.title}</a></li>
+        <li class=""><a href={rt.href} target="_blank" class="">{rt.title}</a></li>
         {/each}
         </ul>
       </div>
