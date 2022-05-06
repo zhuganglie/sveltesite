@@ -208,7 +208,7 @@ article,
         padding:0;
     }
     ul {
-          margin: 0 0 1.25rem 1.25rem;
+          margin: 0 0 1.25rem 0;
           list-style-type: disc; 
           list-style-position: outside;
       }
@@ -250,7 +250,7 @@ article,
     }
     li {
         margin-bottom: 0.5rem;
-        margin-left: 1.25rem;
+        margin-left: 0;
     }
     li > ol {
         margin:1.25rem 0 0.5rem 1.25rem;
