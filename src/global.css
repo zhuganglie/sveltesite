@@ -251,6 +251,7 @@ article,
     li {
         margin-bottom: 0.5rem;
         margin-left: 0;
+        margin-right: 0.5rem;
     }
     li > ol {
         margin:1.25rem 0 0.5rem 1.25rem;
