@@ -60,7 +60,7 @@ export let currentRoute: any
 {#key currentRoute}
 <main class="w-full md:w-3/5 px-4 md:px-8 py-10 border-l-2 border-zinc-700 overflow-auto" in:fly={{ y:150, duration: 250, delay: 250 }} out:fly={{ y:150, duration: 250 }}>
     <ClickOutside on:clickoutside="{() => (open = false)}">
-        <button class:open on:click={toggleHeader} class="bg-zinc-700 text-yellow-500 px-2.5 py-0.5 mb-6 md:hidden shadow rounded  flex items-center space-x-1"><div class="i-mdi-sort-variant icon" /><span class="text-lg font-bold">Caesar</span></button>
+        <button class:open on:click={toggleHeader} class="bg-zinc-700 text-yellow-500 px-2.5 py-0.5 mb-6 md:hidden shadow rounded  flex items-center space-x-1"><div class="i-mdi-sort-variant icon" /><span class="text-lg font-bold">Πύρρων</span></button>
     </ClickOutside>
     <slot />
 </main>
