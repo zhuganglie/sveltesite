@@ -44,7 +44,7 @@ export let currentRoute: any
            <Taiji />
           </center>
         <h1 class="text-center text-2xl mb-1.5">Πύρρων</h1>
-        <p class="font-serif italic text-sm m-0">I do not apprehend</p>
+        <p class="font-sans italic text-sm m-0">I do not apprehend</p>
         </header>
         
         <nav class="m-auto ">
