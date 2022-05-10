@@ -38,6 +38,7 @@
 		"@splidejs/svelte-splide": "^0.2.1",
 		"@unocss/reset": "^0.33.2",
 		"firebase": "^9.8.1",
-		"svelte-click-outside": "^1.0.0"
+		"svelte-click-outside": "^1.0.0",
+		"svelte-pagination": "^0.0.1"
 	}
 }
