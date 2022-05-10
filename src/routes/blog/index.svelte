@@ -20,7 +20,6 @@
   let currentPage = 1
   let pageSize = 2
   $: paginatedItems = paginate({ items, pageSize, currentPage })
-    
   </script>
 
 <svelte:head>
@@ -58,6 +57,7 @@
   on:setPage="{(e) => currentPage = e.detail.page}"
     />
     </div>
+
 
 <style>
 .pagination :global(.pagination-nav) {
