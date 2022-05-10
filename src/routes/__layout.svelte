@@ -28,11 +28,11 @@ export let currentRoute: any
     open = !open;}
 
     const routes = [
-    {name: "Home", href: "/", icon : "i-mdi-home-outline"},
-    {name: "Blog", href: "/blog", icon: "i-mdi-post-outline"},
-    {name: "Notes", href:"/notes", icon: "i-mdi-book-outline"},
-    {name: "Recipes", href:"/recipes", icon: "i-mdi-food-outline"},
-    {name: "About", href:"/about", icon:"i-mdi-information-outline"},
+    {name: "Home", href: "/", icon : "i-tabler-home"},
+    {name: "Blog", href: "/blog", icon: "i-tabler-writing"},
+    {name: "Notes", href:"/notes", icon: "i-tabler-book"},
+    {name: "Recipes", href:"/recipes", icon: "i-tabler-meat"},
+    {name: "About", href:"/about", icon:"i-tabler-info-circle"},
 ]
 </script>
 
