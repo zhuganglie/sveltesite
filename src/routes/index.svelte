@@ -2,6 +2,8 @@
 	import { onMount } from "svelte";
 	import { quintOut } from "svelte/easing";
 	import { fly } from "svelte/transition";
+    import Social from "$lib/components/social.svelte";
+
 	let start = null;
 	onMount(() => {
 		start = {};
@@ -25,7 +27,7 @@
 		I am a learning designer & facilitator based in Singapore. I am passionate about imparting knowledge and developing people.
 	</p>
 {/if}
-<div class="flex items-center justify-center gap-3 text-2xl"><div class="i-tabler-brand-github" /><div class="i-tabler-brand-twitter" /><div class="i-tabler-mail" /></div>
+<Social />
 </div>
 </div>
 
