@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>Portfolio</title>
+	<title>Website</title>
 </svelte:head>
 
 
@@ -21,7 +21,7 @@
     <center><img src="/images/notion-avatar.svg" alt="pic" class="w-1/3 h-auto md:w-48 md:h-48"/></center>
 	<div>
 	<p class="md:text-4xl font-bold">Hey everyone &#129306;</p>
-	<p class="md:text-5xl font-bold">I am Caesar Ruan</p>
+	<p class="md:text-5xl font-bold">I am Πύρρων Ρουάν</p>
 {#if start}
 	<p in:fly={{ delay: 1000, duration: 1000, easing: quintOut, x: -200 }} class="w-full md:w-2/3 leading-10 text-md">
 		I am a learning designer & facilitator based in Singapore. I am passionate about imparting knowledge and developing people.
