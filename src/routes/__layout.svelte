@@ -67,7 +67,7 @@ export let currentRoute: any
 {/key}
 
 <aside class="lg:flex lg:flex-col lg:items-center lg:justify-center text-center mx-auto px-6 hidden md:w-1/5">
-    <div class="mb-4 font-bold text-xl">Contact Me</div>
+    <div class="mb-4 font-bold text-xl">Drop Me A Line</div>
     <Contact />
 </aside>
 </div>
