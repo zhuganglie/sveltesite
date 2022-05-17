@@ -11,11 +11,11 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@iconify-json/mdi": "^1.1.12",
+		"@iconify-json/mdi": "^1.1.13",
 		"@sveltejs/adapter-vercel": "^1.0.0-next.46",
 		"@sveltejs/kit": "next",
 		"@tsconfig/svelte": "^3.0.0",
-		"@unocss/preset-icons": "^0.33.4",
+		"@unocss/preset-icons": "^0.33.5",
 		"autoprefixer": "^10.4.7",
 		"cookie": "^0.5.0",
 		"eslint": "^8.15.0",
@@ -25,18 +25,18 @@
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.48.0",
-		"svelte-check": "^2.7.0",
+		"svelte-check": "^2.7.1",
 		"svelte-paginate": "^0.0.1",
 		"svelte-preprocess": "^4.10.6",
 		"tslib": "^2.4.0",
 		"typescript": "^4.6.4",
-		"unocss": "^0.33.4"
+		"unocss": "^0.33.5"
 	},
 	"type": "module",
 	"dependencies": {
 		"@iconify-json/tabler": "^1.1.13",
 		"@splidejs/svelte-splide": "^0.2.2",
-		"@unocss/reset": "^0.33.4",
+		"@unocss/reset": "^0.33.5",
 		"firebase": "^9.8.1",
 		"svelte-click-outside": "^1.0.0",
 		"svelte-pagination": "^0.0.1"
