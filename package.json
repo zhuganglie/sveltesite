@@ -35,7 +35,7 @@
 	"type": "module",
 	"dependencies": {
 		"@iconify-json/tabler": "^1.1.13",
-		"@splidejs/svelte-splide": "^0.2.2",
+		"@splidejs/svelte-splide": "^0.2.3",
 		"@unocss/reset": "^0.34.1",
 		"firebase": "^9.8.1",
 		"svelte-click-outside": "^1.0.0",
