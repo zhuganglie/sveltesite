@@ -26,6 +26,13 @@
 
 <p>Actually, I do not know how to write About Me.</p>
 
-<a href="/auth/logout" class="bg-zinc-700 p-2 text-zinc-100 focus:text-zinc-50 cursor-pointer">Logout</a>
+<p align="center">
+<iframe class="w-full aspect-[16/10]" title="slide"  src="https://docs.google.com/presentation/d/e/2PACX-1vRSfk1OZ5w1CLXJRclvSnntV8s-oR0ICiKVQ4vLVWxuAtNFovZcKksYvGe3FitRGUmID8WecMJA3B1w/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+</p>
+
+<button class="mt-4 bg-zinc-700 rounded">
+<a href="/auth/logout" class="text-zinc-100 focus:text-zinc-50 cursor-pointer">Logout</a>
+</button>
 
 
