@@ -11,14 +11,13 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@iconify-json/mdi": "^1.1.19",
+		"@iconify-json/mdi": "^1.1.22",
 		"@sveltejs/adapter-vercel": "^1.0.0-next.46",
 		"@sveltejs/kit": "next",
 		"@tsconfig/svelte": "^3.0.0",
-		"@unocss/preset-icons": "^0.38.1",
 		"autoprefixer": "^10.4.7",
 		"cookie": "^0.5.0",
-		"eslint": "^8.17.0",
+		"eslint": "^8.18.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.10.6",
@@ -29,15 +28,15 @@
 		"svelte-paginate": "^0.0.1",
 		"svelte-preprocess": "^4.10.7",
 		"tslib": "^2.4.0",
-		"typescript": "^4.7.3",
-		"unocss": "^0.38.1"
+		"typescript": "^4.7.4",
+		"unocss": "^0.39.3"
 	},
 	"type": "module",
 	"dependencies": {
-		"@iconify-json/tabler": "^1.1.13",
-		"@splidejs/svelte-splide": "^0.2.4",
-		"@unocss/reset": "^0.38.1",
-		"firebase": "^9.8.2",
+		"@iconify-json/tabler": "^1.1.16",
+		"@splidejs/svelte-splide": "^0.2.5",
+		"@unocss/reset": "^0.39.3",
+		"firebase": "^9.8.3",
 		"svelte-click-outside": "^1.0.0",
 		"svelte-pagination": "^0.0.1"
 	}
