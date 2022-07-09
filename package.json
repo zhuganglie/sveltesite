@@ -21,21 +21,21 @@
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.7.1",
 		"prettier-plugin-svelte": "^2.7.0",
-		"svelte": "^3.48.0",
+		"svelte": "^3.49.0",
 		"svelte-check": "^2.8.0",
 		"svelte-paginate": "^0.0.1",
 		"svelte-preprocess": "^4.10.7",
 		"tslib": "^2.4.0",
 		"typescript": "^4.7.4",
 		"unocss": "^0.43.2",
-		"vite": "^2.9.13"
+		"vite": "^2.9.14"
 	},
 	"type": "module",
 	"dependencies": {
 		"@iconify-json/tabler": "^1.1.18",
 		"@splidejs/svelte-splide": "^0.2.5",
 		"@unocss/reset": "^0.43.2",
-		"firebase": "^9.8.4",
+		"firebase": "^9.9.0",
 		"svelte-click-outside": "^1.0.0",
 		"svelte-pagination": "^0.0.1"
 	}
