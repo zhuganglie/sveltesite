@@ -2,9 +2,9 @@ export const post = async({request}) => {
     /* Change below to your own formID */
     const formID = "IFAIpQLSco-48vyzr92Wt4u73dIcJwBijGMdKwZuBNi_FLzZf6i0KzSw" 
     const body = await request.formData()
-    const name = await body.get("name")
-    const email = await body.get("email")
-    const message = await body.get("message")
+    const name = await body.GET("name")
+    const email = await body.GET("email")
+    const message = await body.GET("message")
     /* Change the url below to your own */
     const res = await fetch(`https://docs.google.com/forms/d/e/${formID}/formResponse?usp=pp_url&entry.1430917826=${name}&entry.636051757=${email}&entry.1669937629=${message}&submit=Submit`);
 
